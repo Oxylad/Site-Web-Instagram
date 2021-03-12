@@ -1,12 +1,12 @@
 .titre {
  text-align: center;
  color:red ;
- font-family: "Proxima Nova";
+ font-family: sans-serif;
  font-size:60px;
 }
 
-.parite {
- font-size: 50px;
+.partie {
+ font-size: 20px;
 }
 
 .text {
@@ -14,11 +14,57 @@
  font-size: 20px;
 }
 
-.image {
- width:20px;
- height:20px;
+.text2 {
+ font-family: Monaco;  
+ font-size: 20px;
 }
 
-.easter-egg {
- font-size: 5px;
+.image {
+ font;
+}
+
+body {
+  background-color: gainsboro;
+}
+
+header {
+  background: black;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  height: 60px;
+  
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 20px;
+  color: white;
+}
+
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 2px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
