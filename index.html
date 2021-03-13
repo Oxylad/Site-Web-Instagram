@@ -10,74 +10,59 @@
 </head>
 
 <style>
-a:link {
-  color: grey;
-  background-color: transparent;
-  text-decoration: none;
-}
 
-a:visited {
-  color: grey;
-  background-color: transparent;
-  text-decoration: none;
-}
+	a.one:link {color:#ffffff;}
+	a.one:visited {color:#ffffff;}
+	a.one:hover {color:#ffffff;}
 
-a:hover {
-  color: grey;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:active {
-  color: grey;
-  background-color: transparent;
-  text-decoration: underline;
-}
 </style>
+
 <body>
-  <header>
-    <nav>
-      <ul>
-        <div class="a:link">
-        <li> <a href="../index.html" class="button4" style="background-color:#9a4ef1"> Home</a></li>
-				<li><a href="../pages/sources.html">Sources</a></li>
-				<li><div class="dropdown">
-          <button class="dropbtn">Dropdown</button>
-           <div class="dropdown-content">
-             <a href="pages/page1.html">Une présentation générale du réseau social</a>
-             <a href="pages/page2.html">Partie 2</a>
-             <a href="pages/page3.html">Partie 3</a>
-						 <a href="pages/page4.html">Partie 4</a>
-           </div>
+	<header>
+		<nav>
+			<ul>
+				<div class="one">
+					<li><a href="../index.html" class="button4 one" style="background-color:#f14e4e" style="color:black">Home</a></li>
+					<li><a href="../pages/sources.html" class="button4" style="background-color:#f1bb4e">Sources</a></li>
+					<li>
+						<div class="dropdown">
+						 <button class="dropbtn" class="button4" style="background-color:#84f14e">Dropdown</button>
+             <div class="dropdown-content">
+             <a href="../pages/page1.html" class="button4" style="background-color:#4ef18f">Partie 1: Une présentation générale du réseau social</a>
+             <a href="../pages/page2.html" class="button4" style="background-color:#4e9af1">Partie 2: Données personnelles</a>
+             <a href="../pages/page3.html" class="button4" style="background-color:#9a4ef1">Partie 3: Sources de revenus</a>
+						 <a href="../pages/page4.html" class="button4" style="background-color:#f14ebd">Partie 4: Les différents dangers</a>
+            </div>
 					 </div></li>
         </div>
       </ul>
     </nav>
   </header>
-  
-	<script src="script.js">
+ </body>
+</html>
 
-	</script>
-	<div class="titre">
+<html>
+<style>
+  a.two:link {color:#5b5d61;}
+	a.two:visited {color:#5b5d61;}
+	a.two:hover {color:#5b5d61;}
+	 </style>
+	<div class="titre two">
 		<img src="images/Index logo.png">
 	</div>
-
-	<div class="partie">
-		<h2><a href="pages/page1.html">Partie 1 : Une présentation générale du réseau social.</a></h2>
+  <div class="partie">
+		<h2><a class="two" href="pages/page1.html">Partie 1 : Une présentation générale du réseau social.</a></h2>
 	</div>
-	
-    <div class="partie">
-     <h2><a href="pages/page2.html">Partie 2 : Données personnelles.</a></h2> 
+  <div class="partie">
+     <h2><a class="two" href="pages/page2.html">Partie 2 : Données personnelles.</a></h2> 
     </div>
-
-    </div>
-    
-    <div class="partie">
-     <h2><a href="pages/page3.html">Partie 3 : Sources de revenus.</a></h2>
+</div>
+<div class="partie">
+     <h2><a class="two" href="pages/page3.html">Partie 3 : Sources de revenus.</a></h2>
     </div>
     
     <div class="partie">
-     <h2><a href="pages/page4.html">Partie 4 : Les différents dangers</a></h2>
+     <h2><a class="two" href="pages/page4.html">Partie 4 : Les différents dangers</a></h2>
     </div>
     
     <div class="copyright">
@@ -85,14 +70,3 @@ a:active {
     </div>
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
