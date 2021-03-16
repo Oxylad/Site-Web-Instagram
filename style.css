@@ -1,3 +1,9 @@
+@Font-face {
+	font-family: Dosis;
+	src: url();
+}
+
+
 .titre {
  text-align: center;
  font-family: sans-serif;
@@ -10,31 +16,25 @@
 }
 
 .text {
- font-family: Monaco;  
+ font-family: Dosis;  
  font-size: 20px;
 }
 
 .text2 {
  font-family: Monaco;  
  font-size: 20px;
- text
 }
 
-.image {
- font-size: ;
-}
 
 body {
   background-color: gainsboro;
 }
-
  {
   background: black;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   height: 90px;
-	margin-top: 20px
+	margin-top: 20px;
 }
-
 
 
 li {
@@ -49,27 +49,42 @@ a:link {
   background-color: transparent;
   text-decoration: none;
 }
-
 a:visited {
   color: white;
   background-color: transparent;
   text-decoration: none;
 }
-
 a:hover {
   color: white;
   background-color: transparent;
   text-decoration: none;
 }
-
-
 a:active {
   color: white;
   background-color: transparent;
   text-decoration: none;
 }
 
-
+a.two:link {
+  color: #292929;
+  background-color: transparent;
+  text-decoration: none;
+}
+a.two:visited {
+  color: #292929;
+  background-color: transparent;
+  text-decoration: none;
+}
+a.two:hover {
+  color: #292929;
+  background-color: transparent;
+  text-decoration: none;
+}
+a.two:active {
+  color: #292929;
+  background-color: transparent;
+  text-decoration: none;
+}
 
 
 .copyright {
@@ -85,7 +100,6 @@ img.one {
 h4.one  {
 	float:right;
 }
-
 
 
 /*Dropdown menu*/
@@ -149,7 +163,7 @@ text-shadow: 0 0.04em 0.04em rgba (0,0,0,0.35);
 text-align: center;
 transition: all 0.2s;
 }
-a.button4: hover {
+a.button4 hover {
 border-color: rgba (255,255,255.1);
 }
 @media all and (max-width: 30em) {
